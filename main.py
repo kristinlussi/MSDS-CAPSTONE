@@ -75,7 +75,7 @@ def clean_text_for_comparison(text):
     
     return text.strip()
 
-def main(expiring_pdf, renewal_pdf, threshold=0.99):
+def main(expiring_pdf, renewal_pdf, threshold=0.95):
     html_parts = []
     html_parts.append("<html><head><meta charset='UTF-8'><title>Policy Diff - Entire Policy</title>")
     html_parts.append("""
